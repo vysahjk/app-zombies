@@ -1,0 +1,10 @@
+{
+  "apps" : [
+    {
+      "name"      : "app_zombie",
+      "script"    : "npx",
+      "interpreter": "none",
+      "args": "serve -p 4000 -s build"
+    }
+  ]
+}

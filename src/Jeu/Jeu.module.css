@@ -1,0 +1,89 @@
+.board {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+
+.btn_p{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(350px, -20px); 
+}
+
+.btn_o{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(280px, -20px); 
+}
+
+.btn_z{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(100px, -80px); 
+}
+
+
+.btn_q{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(55px, -20px); 
+}
+
+
+.btn_d{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(140px, -20px); 
+}
+
+.btn_punch {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(295px, -80px);
+}
+
+.btn_zombies {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-200px, -80px);
+}
+
+.btn_zombies_morts {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-200px, -50px);
+}
+
+.vie{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.time{
+  position: absolute;
+  top: 7%;
+  right: 15%;
+}
+
+.timeinit{
+  position: absolute;
+  top: 3%;
+  right: 15%;
+}

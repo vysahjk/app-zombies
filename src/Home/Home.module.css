@@ -1,0 +1,103 @@
+.white {
+    color: aliceblue;
+}
+
+.start_btn {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  
+  width: 460px;
+  position: absolute;
+  margin: 0 25px;
+  
+  top: 65%;
+  left: 50%;
+  
+  transform: translate(-50%);
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+}
+
+.rules {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    
+    width: 460px;
+    
+    position: absolute;
+    top: 65%;
+    left: 6%;
+}
+
+
+.scores {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    
+    width: 460px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+
+.key {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+
+    position: absolute;
+    top: 65%;
+    right: 6%;
+}
+
+.key button {
+    margin-right: 15px;
+}
+
+.key_z {
+    margin-left: 73px;
+    margin-bottom: 15px;
+}
+.key_o {
+    margin-left: 25px;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+}
+
+.margin{
+  margin: 15px;
+}
+
+.username {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  top : 0;
+  left: 0;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}

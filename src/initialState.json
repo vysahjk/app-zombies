@@ -1,0 +1,12 @@
+{
+  "membre": "Hello World",
+  "username": "",
+  "vie_player" : 100,
+  "vie_total" : 100,
+  "timeinit" : 0,
+  "time_player" : 0,
+  "zombies_morts" : 0,
+  "scores" : [],
+  "terminer" : false,
+  "gagner" : false
+}
